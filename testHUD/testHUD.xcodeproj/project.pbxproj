@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E929B9C51B7C7456001A9807 /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E929B9C41B7C7456001A9807 /* UIImage+Ext.swift */; };
 		E9CDBB4C1B7B42EE00670FCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CDBB4B1B7B42EE00670FCE /* AppDelegate.swift */; };
 		E9CDBB4E1B7B42EE00670FCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CDBB4D1B7B42EE00670FCE /* ViewController.swift */; };
 		E9CDBB511B7B42EE00670FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CDBB4F1B7B42EE00670FCE /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E929B9C41B7C7456001A9807 /* UIImage+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
 		E9CDBB461B7B42EE00670FCE /* testHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CDBB4A1B7B42EE00670FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9CDBB4B1B7B42EE00670FCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				E9CDBB751B7B491900670FCE /* SnapKit */,
 				E9CDBB4B1B7B42EE00670FCE /* AppDelegate.swift */,
 				E9CDBB4D1B7B42EE00670FCE /* ViewController.swift */,
+				E929B9C41B7C7456001A9807 /* UIImage+Ext.swift */,
 				E9CDBB4F1B7B42EE00670FCE /* Main.storyboard */,
 				E9CDBB521B7B42EE00670FCE /* Images.xcassets */,
 				E9CDBB541B7B42EE00670FCE /* LaunchScreen.xib */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E929B9C51B7C7456001A9807 /* UIImage+Ext.swift in Sources */,
 				E9CDBB871B7B491900670FCE /* ConstraintItem.swift in Sources */,
 				E9CDBB891B7B491900670FCE /* ConstraintRelation.swift in Sources */,
 				E9CDBB8E1B7B491900670FCE /* SnapKit.swift in Sources */,
@@ -407,6 +411,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = testHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "testHUD/testHUD-Bridging-Header.h";
@@ -420,6 +425,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = testHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "testHUD/testHUD-Bridging-Header.h";
@@ -479,6 +485,7 @@
 				E9CDBB671B7B42EE00670FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9CDBB681B7B42EE00670FCE /* Build configuration list for PBXNativeTarget "testHUDTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +494,7 @@
 				E9CDBB6A1B7B42EE00670FCE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

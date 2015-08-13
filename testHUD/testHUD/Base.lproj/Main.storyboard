@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="eeC-hz-cZz">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击屏幕弹出HUD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYE-oo-9Gj">
-                                <rect key="frame" x="230.5" y="197" width="139" height="20.5"/>
+                                <rect key="frame" x="230" y="197" width="139" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -28,13 +29,33 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gsY-kB-q23">
+                                <rect key="frame" x="0.0" y="520" width="600" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="帮你出品 必属精品  http://www.8ni.com" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="efL-yZ-keT">
+                                        <rect key="frame" x="149" y="29" width="301.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="centerX" secondItem="efL-yZ-keT" secondAttribute="centerX" id="aiQ-9i-PED"/>
+                                    <constraint firstAttribute="centerY" secondItem="efL-yZ-keT" secondAttribute="centerY" id="g4J-Cm-8XG"/>
+                                    <constraint firstAttribute="height" constant="80" id="tqd-0j-kga"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Umt-nJ-X03" firstAttribute="top" secondItem="zYE-oo-9Gj" secondAttribute="bottom" constant="26" id="CGP-aM-9KR"/>
                             <constraint firstItem="zYE-oo-9Gj" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="133" id="DRe-Sq-h3H"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="gsY-kB-q23" secondAttribute="bottom" id="PDe-bR-YDQ"/>
                             <constraint firstAttribute="centerX" secondItem="Umt-nJ-X03" secondAttribute="centerX" id="ZXn-un-gbb"/>
+                            <constraint firstItem="gsY-kB-q23" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="kEd-nX-iRv"/>
                             <constraint firstAttribute="centerX" secondItem="zYE-oo-9Gj" secondAttribute="centerX" id="rdA-CB-upF"/>
+                            <constraint firstAttribute="trailing" secondItem="gsY-kB-q23" secondAttribute="trailing" id="wmH-zH-DPB"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="j10-Vx-b7b"/>
