@@ -11,7 +11,7 @@ mv MDJStudy.ipa  mdj-makeup-ios.ipa
 echo "2. rename ok\n"
 
 git add .
-echo "3. add commited file ok\n"
+echo "3. add files ok\n"
 
 git commit -m "new version"
 echo "4. commit ok\n"
