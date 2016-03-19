@@ -2,19 +2,19 @@
 
 # rm the exist file 
 rm mdj-makeup-ios.ipa
-echo "0. delete file ok\n\n"
+echo "0. delete file ok\n"
 
 git pull -q
-echo "1. pull ready\n\n"
+echo "1. pull ready\n"
 
 mv MDJStudy.ipa  mdj-makeup-ios.ipa
-echo "2. rename ok\n\n"
+echo "2. rename ok\n"
 
 git add .
-echo "3. add commited file ok\n\n"
+echo "3. add commited file ok\n"
 
 git commit -m "new version"
-echo "4. commit ok\n\n"
+echo "4. commit ok\n"
 
 git push origin master
-echo "5. push ready\n\n  EveryOne is OK!!!!!\n\n"
+echo "5. push ready\n  EveryOne is OK!!!!!\n"
